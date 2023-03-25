@@ -1,0 +1,135 @@
+
+*{ margin-left: 12px;}
+
+.header{
+background-image: url('/images/donation0.jpg');
+background-repeat: no-repeat;
+background-size: 1100px 800px;
+width: 640px;
+height: 369px;
+text-align: center;
+}
+.header-title{
+    font-size: 50px;
+   color: chartreuse;
+    text-size-adjust: center;
+    padding-top: 70px;
+}
+
+.header-description{
+    text-align: center;
+    color: blue;
+    font-size: 16px;
+   margin-left: 70px;
+   margin-right: 50px;
+    font-weight: 600px;
+}
+
+.header-btn-primary{
+    color:white;
+    font-weight: 600px;
+    font-size: 18px;
+    border: 0px;
+    padding:8px 10px;
+    text-align: center;
+    height: 35px;
+    border-radius: 5px;
+    background-color:red;
+    margin-top: 40px;
+}
+ /* section styles */
+ .section{
+    margin: 0px;
+ }
+ .sub-section{
+  text-align: center;
+  font-size: 45px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+  color: chocolate;
+
+ }
+ .section-description{
+  text-align: center;
+  font-size: 12px;
+  margin-left: 80px;
+  margin-right: 60px;
+  margin-top: 0px;
+  color: darkblue;
+
+ }
+
+ .section-donation{
+  display: flex;
+  text-align: center;
+  gap: 70px;
+  margin-top: 30px;
+
+
+ }
+.text{
+  color:darkgreen ;
+}
+
+
+
+ /* donation's styles */
+
+ .title{
+    margin-top: 60px; 
+    text-align: center;
+    font-size: 35px;
+    color: yellowgreen;
+    margin-bottom: 0px;
+  }
+
+  .title-descriotion{
+    text-align: center;
+    font-size: 12px;
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-top: 0px;
+    color:lightcoral;
+  }
+  .donations-container{
+    display: flex;
+    gap: 13px;
+  }
+
+  .donation{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 16px;
+  }
+  .donation-title{
+    font-weight: 300px;
+    font-size: 10px;
+    color: yellowgreen;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+
+  .donation-description{
+    color: darkorange;
+    font-size: 7px;
+  }
+
+  /* main body styles */
+  .main{
+    
+  }
+  .main-body{
+
+  }
+
+  .body-info{}
+
+  .body-description{
+    text-align: left;
+    font-size: 12px;
+    color:green;
+    width: 300px;
+  }
+
+  
