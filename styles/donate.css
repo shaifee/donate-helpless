@@ -71,6 +71,12 @@ justify-content: center;
 
 
  }
+.other-amount{
+  font-size: 20px;
+  text-align: center;
+  color: #B3B3B3;
+  margin-top:60px;
+}
 .text{
   color:darkgreen ;
 }
@@ -94,6 +100,7 @@ justify-content: center;
     margin-right: 60px;
     margin-top: 0px;
     color:lightcoral;
+    margin-bottom: 40px;
   }
   .donations-container{
     display: flex;
@@ -102,14 +109,15 @@ justify-content: center;
   }
 
   .donation{
-    background: #FFFFFF;
+    background-color:lavender;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 16px;
+    padding: 16px  70px;
+    
   }
   .donation-title{
     font-weight: 300px;
-    font-size: 10px;
+    font-size: 30px;
     color: yellowgreen;
     margin-top: 10px;
     margin-bottom: 8px;
@@ -117,17 +125,31 @@ justify-content: center;
 
   .donation-description{
     color: darkorange;
-    font-size: 7px;
+    font-size: 12px;
+  }
+  .body-btn{
+    color:white;
+        font-weight: 600px;
+        font-size: 18px;
+        border: 0px;
+        padding:12px 10px;
+        text-align: center;
+        height: 45px;
+        border-radius: 5px;
+        background-color:#FF5959;
+        margin-top: 20px;
   }
 
   /* main body styles */
   .main-body{
     align-items: center;
+    margin-top: 80px;
   }
   .body{
     display:flex ;
     justify-content: center;
     gap: 50px;
+    margin-top: 50px;
 
   }
 .main-img{
@@ -135,6 +157,9 @@ justify-content: center;
   height: 400px;
 }
   .body-info{
+    font-size: 35px;
+    width: 300px;
+    margin-bottom: 20px;
     
   }
 
@@ -145,4 +170,33 @@ justify-content: center;
     width: 300px;
   }
 
+  /* footer styles */
+  .footer-title{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+  }
+.footer-description{
+  text-align: center;
+  color: darkgoldenrod;
+  margin-left: 300px;
+  margin-bottom: 60px;
+  margin-right: 350px;
+
+}
+.footer-section-title{
+  font-size: 30px;
+  color: black;
+  margin-bottom: 30px;
+}
+.footer-form{
+  justify-items: center;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  
+  
+
+}
   
